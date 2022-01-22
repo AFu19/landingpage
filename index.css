@@ -1,0 +1,230 @@
+*{
+	font-family: sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.barpertama{
+	background-color: #FFF;
+	width: 1290px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 25px;
+}
+.kapital{text-transform: uppercase;}
+.logopojok{
+	width: 165px;
+	height: 25px;
+}
+.kotaktengah{
+	margin-left: 200px;
+	padding-top: 5px;
+}
+.pilihan{
+	color: rgba(0,0,0,0.6);
+	text-decoration: none;
+	letter-spacing: 2px;
+	padding: 0 15px;
+	font-size: 12px;
+	transition: 0.3s;
+}
+.skrg{color: #000;}
+.pilihan:hover{color: #000;}
+.kotakiri{
+	margin-left: 180px;
+	padding-top: 5px;
+}
+.kotakiri input{
+	border: 1px solid transparent;
+}
+.gambarbesak{
+	padding: 50px 130px auto;
+	background-color: #F2F2F2;
+	width: 1340px;
+	text-align: center;
+	height: 800px;
+}
+.gambarbesak img{
+	width: 890px;
+	height: 576px;
+	padding: 70px 0;
+	position: relative;
+}
+.tulisan{
+	color: #FFF;
+	transform: translateY(-500px);
+}
+.tulisan img{
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+}
+.kecil{font-size: 14px;}
+.besar{
+	font-size: 42px;
+}
+.profil{
+	display: flex;
+	margin-left: 550px;
+	color: rgba(255,255,255,0.5);
+}
+.profil p{
+	margin: 82px 0 0 10px;
+}
+.baris{
+	padding: 0 130px auto;
+	display: flex;	
+}
+.badan{background-color: #F2F2F2; padding-bottom: 150px;}
+.baris{
+	margin: 0 120px auto;
+}
+.januari{
+	width: 320px;
+	height: 600px;
+	text-align: center;
+	background-color: #FFF;
+	margin: 20px 20px;
+	box-shadow: 1px 3px rgba(0,0,0,0.12);
+}
+.januari img{
+	width: 320px;
+	height: 360px;
+	margin-bottom: 20px;
+}
+.januari a{
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: .25em;
+}
+.januari h2{
+	font-size: 28px;
+}
+.tanggal{
+	bottom: 10%;
+}
+.footer1{
+	padding: 130px 90px 100px;
+	display: flex;
+}
+.kiribos .ea{
+	font-size: 14px;
+	margin: 0 0 45px;
+	padding: 18px 0 0;
+	letter-spacing: 2px;
+}
+.bariis{
+	display: flex;
+}
+.buah{
+	display: flex;
+	width: 330px;
+}
+.buah img{
+	width: 69px;
+	height: 69px;
+}
+.buah .spesial{
+	width: 300px;
+}
+.biji{
+	margin-left: 20px;
+}
+.item{
+	text-decoration: none;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+.biji p{
+	color: rgba(0,0,0,0.5);
+}
+.biji span{
+	color: #000;
+}
+.kananbos{
+	display: flex;
+	margin-left: 150px;
+}
+.kirilagi{margin-right: 40px;}
+.kirilagi h3{
+	font-size: 14px;
+	margin: 0 0 45px;
+	padding: 18px 0 0;
+	letter-spacing: 2px;
+}
+.febuari{
+	list-style-type: none;
+	margin-left: -40px;
+}
+.febuari li{
+	padding: 12px 0;
+	border-top: 1px solid #ccc;
+}
+.febuari .bord{
+	border-top: none;
+}
+.febuari li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #000;
+	width: 160px;
+}
+.footer2{
+	color: rgba(255,255,255,0.5);
+	font-size: 15px;
+	padding: 102px 0;
+	background-color: #111860;
+	width: 1268px;
+	padding-left: 80px;
+	display: flex;
+}
+.masihkiri{
+	max-width: 555px;
+	padding: 0 45px 0 20px;
+	color: rgba(255,255,255,0.5);
+	font-size: 15px;
+}
+.masihkiri h4, .masihkanan h4{
+	color: #FFF;
+	font-size: 14px;
+	margin: 0 0 18px;
+	padding: 0 0 42px;
+}
+.masihkiri p, .masihkanan p{
+	margin: 0 0 30px;
+	line-height: 2;
+}
+.masihkiri .social a{color: #FFF;}
+.masihkiri .social a i {
+	font-size: 36px;
+	padding-right: 20px;
+}
+.masihkanan{
+	max-width: 555px;
+	padding: 0 20px 0 45px;
+	color: rgba(255,255,255,0.5);
+	font-size: 15px;
+}
+.email input{
+	background-color: rgba(0,0,0,0.25);
+	border: none;
+	padding: 12px 200px 12px 12px;
+	margin: 0 0 18px;
+	color: #FFF;
+}
+.email button{
+	background-color: #000;
+	color: #FFF;
+	border: none;
+	margin: 0 0 12px;
+	padding: 12px 20px;
+	margin-left: -5px;
+}
+.masihkanan .copi{margin-top: 39px;}
+.masihkanan .copi a{
+	text-decoration: none;
+	color: #FFF;
+}

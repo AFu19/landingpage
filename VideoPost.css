@@ -1,0 +1,517 @@
+*{
+	font-family: sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.barpertama{
+	background-color: #FFF;
+	width: 1290px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 25px;
+}
+.kapital{text-transform: uppercase;}
+.logopojok{
+	width: 165px;
+	height: 25px;
+}
+.kotaktengah{
+	margin-left: 200px;
+	padding-top: 5px;
+}
+.pilihan{
+	color: rgba(0,0,0,0.6);
+	text-decoration: none;
+	letter-spacing: 2px;
+	padding: 0 15px;
+	font-size: 12px;
+	transition: 0.3s;
+}
+.skrg{color: #000;}
+.pilihan:hover{color: #000;}
+.kotakiri{
+	margin-left: 180px;
+	padding-top: 5px;
+}
+.kotakiri input{
+	border: 1px solid transparent;
+}
+.konten{
+	background-color: #F2F2F2;
+	padding: 72px 0;
+	font-size: 18px;
+	color: rgba(0,0,0,0.8);
+}
+.kontens{
+	width: 1000px;
+	margin: 0 175px auto
+}
+.fakeimg:hover{
+	transition: 0.3s;
+	background-color: #eee;
+	cursor: pointer;
+}
+.format{
+	margin: 60px 0 0;
+	padding: 0 70px;
+	font-size: 18px;
+}
+.format h1{
+	font-size: 48px;
+	margin: 0 0 9px;
+	text-align: center;
+	color: #000;
+}
+.nego{
+	display: flex;
+	font-size: 14px;
+	margin: 0 0 12px;
+	justify-content: center;
+	align-items: center;
+}
+.nego p{
+	color: rgba(0,0,0,0.5);
+	font-size: 14px;
+	margin: 0 10px;
+}
+.nego p a{
+	color: #000;
+	text-decoration: none;
+}
+.uiui{
+	color: #000;
+	font-size: 27px;
+	margin: 0 0 36px;
+	display: block;
+	line-height: 1.667;
+}
+.uiui:first-letter{
+	padding: 15px 6px 0 0;
+	font-size: 80px;
+	display: block;
+}
+.oioi{
+	font-size: 18px;
+	color: rgba(0,0,0,0.8);
+	margin: 0 0 30px;
+	line-height: 1.8333;
+}
+.bct{
+	color: rgba(0,0,0,0.8);
+	font-size: 18px;
+	margin: 60px 0 0;
+	padding: 0 70px;
+}
+.bct h2{
+	font-size: 30px;
+	margin: 60px 0 18px;
+}
+.bct p{
+	font-size: 18px;
+	margin: 0 0 30px;
+	line-height: 1.8333;
+}
+.bijak{
+	width: 740px;
+	align-items: center;
+	justify-content: center;
+	line-height: 1.8333;
+}
+.bijak p{
+	font-size: 27px;
+	margin: 0 0 30px;
+}
+.bcd{
+	color: rgba(0,0,0,0.8);
+	font-size: 18px;
+	margin: 60px 0 0;
+	padding: 0 70px;
+}
+.bcd h3{
+	font-size: 24px;
+	margin: 60px 0 18px;
+}
+.bcd .anu{
+	font-size: 18px;
+	margin: 0 0 30px;
+	line-height: 1.8333;
+}
+.nyusahin{
+	background-color: #E5E5E5;
+	margin: 0 0 30px;
+	padding: 24px 30px 30px;
+	font-size: 14px;
+}
+.nyusahin .ehe{
+	padding-left: 20px;
+}
+.nyusahin .tab{
+	padding-left: 50px;
+}
+.bcd .hehew{
+	font-size: 18px;
+	margin: 0 0 30px;
+	line-height: 1.8333;
+	color: rgba(0,0,0,0.8);
+}
+.bcd ul{
+	list-style: disc;
+	font-size: 18px;
+	line-height: 1.8333;
+	color: rgba(0,0,0,0.8);
+}
+.bcd .ribut{
+	line-height: 1.8333;
+	color: rgba(0,0,0,0.8);
+	font-size: 18px;
+}
+.lemparaja{
+	display: flex;
+	margin: 60px 0 0;
+	padding: 0 70px;
+}
+.lemparkiri{
+	width: 430px;
+}
+.lemparkiri h5, .lemparkanan h5{
+	font-size: 14px;
+	color: #000;
+	margin: 0 0 12px;
+	letter-spacing: 3px;
+}
+.lemparkiri a{
+	text-decoration: none;
+	color: rgba(0,0,0,0.5);
+	font-size: 18px;
+}
+.lemparkanan{
+	width: 430px;
+}
+.lemparkanan a{
+	text-decoration: none;
+	color: rgba(0,0,0,0.5);
+	margin: 0 6px 6px 0;
+	padding: 3px 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	font-size: 14px;
+}
+.hehe{
+	margin-left: 70px;
+	margin-right: 70px;
+}
+.author{
+	display: flex;
+	border: 1px solid #ccc;
+	margin: 72px 0 0;
+	padding: 42px 40px 42px 150px;
+	max-width: 860px;
+}
+.adade{
+	width: 150px;
+}
+.adade span{
+	color: rgba(0,0,0,0.5);
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+.adade a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+}
+.bctdie{
+	max-width: 500px;
+	line-height: 1.8333;
+	margin-left: 20px;
+}
+.gambardie{
+	position: absolute;
+	border-radius: 50%;
+	transform: translateX(-100px);
+}
+.postlaen{
+	display: flex;
+	font-size: 18px;
+	margin: 120px 0 60px;
+	padding: auto;
+	border: 1px solid #ccc;
+}
+.postkiri{
+	width: 50%;
+	text-align: right;
+	transform: translateY(20%);
+	padding-right: 60px;
+}
+.postkanan{
+	width: 50%;
+	text-align: left;
+	transform: translateY(20%);
+	padding-left: 60px;
+}
+.postkiri span, .postkanan span{
+	color: rgba(0,0,0,0.5);
+	font-size: 14px;
+	margin: 0 0 12px;
+}
+.postkiri a, .postkanan a{
+	color: #000;
+	font-size: 30px;
+	text-decoration: none;
+}
+.komen{
+	font-size: 18px;
+	padding: 12px 70px;
+}
+.komen h3{
+	color: #000;
+	text-align: center;
+	font-size: 30px;
+	margin: 0 0 15px;
+}
+.baja{
+	display: flex;
+	padding-top: 18px;
+}
+.pfft{
+	width: 15%;
+}
+.pfft img{
+	border-radius: 50%;
+}
+.komen .baja .uhuk{
+	width: 65%;
+}
+.uhuk h5, .komenaneh h5, .anakaneh h5{
+	font-size: 19px;
+	color: #000;
+	margin: 0;
+}
+.uhuk p{
+	font-size: 18px;
+	margin: 10px 0 30px;
+	color: rgba(0,0,0,0.8);
+	line-height: 1.8333;
+}
+.nyempil{
+	width: 20%;
+	text-align: right;
+}
+.nyempil p{
+	font-size: 14px;
+	color: rgba(0,0,0,0.5);
+}
+.nyempil a{
+	font-size: 13px;
+	color: #000;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-weight: 700;
+}
+.anehsorg{
+	display: flex;
+}
+.hahaha{
+	width: 15%;
+}
+.jas{
+	border-radius: 50%;
+}
+.komenaneh{
+	width: 65%;
+	border-left: 1px solid #ccc;
+	padding-left: 30px;
+}
+.fufu p{
+	line-height: 1.8333;
+	margin-bottom: 30px;
+}
+.kawananeh{
+	display: flex;
+}
+.haha{
+	width: 15%;
+}
+.haha img{border-radius: 50%;}
+.anakaneh{
+	width: 65%;
+	border-left: 1px solid #ccc;
+	padding-left: 30px;
+}
+.pusing{
+	border-left: 1px solid #ccc;
+	padding-left: 30px;
+}
+.pusing p{
+	margin-bottom: 30px;
+	line-height: 1.8333;
+}
+.komensorg{
+	width: 800px;
+	margin: 100px auto;
+}
+.komensorg h3{
+	font-size: 30px;
+	margin: 0 0 15px;
+	color: #000;
+	text-align: center;
+}
+.komensorg p{
+	color: rgba(0,0,0,0.5);
+	text-align: center;
+	font-size: 18px;
+}
+.teks{
+	color: rgba(0,0,0,0.8);
+	font-size: 18px;
+	margin: 0 0 30px;
+	padding: 60px 0 0;
+}
+.teks .kecik{
+	background-color: transparent;
+	padding: 18px 0;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+}
+.teks .besak{
+	text-rendering: auto;
+	height: 200px;
+}
+.tmbhkomen button{
+	background-color: #111860;
+	color: #FFF;
+	width: 100%;
+	padding: 25px 30px;
+	margin-top: 50px;
+	border: none;
+}
+.tmbhkomen button:hover{
+	cursor: pointer;
+}
+.footer1{
+	padding: 130px 90px 100px;
+	display: flex;
+}
+.kiribos .ea{
+	font-size: 14px;
+	margin: 0 0 45px;
+	padding: 18px 0 0;
+	letter-spacing: 2px;
+}
+.bariis{
+	display: flex;
+}
+.buah{
+	display: flex;
+	width: 330px;
+}
+.buah img{
+	width: 69px;
+	height: 69px;
+}
+.buah .spesial{
+	width: 300px;
+}
+.biji{
+	margin-left: 20px;
+}
+.item{
+	text-decoration: none;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+.biji p{
+	color: rgba(0,0,0,0.5);
+}
+.biji span{
+	color: #000;
+}
+.kananbos{
+	display: flex;
+	margin-left: 150px;
+}
+.kirilagi{margin-right: 40px;}
+.kirilagi h3{
+	font-size: 14px;
+	margin: 0 0 45px;
+	padding: 18px 0 0;
+	letter-spacing: 2px;
+}
+.febuari{
+	list-style-type: none;
+	margin-left: -40px;
+}
+.febuari li{
+	padding: 12px 0;
+	border-top: 1px solid #ccc;
+}
+.febuari .bord{
+	border-top: none;
+}
+.febuari li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #000;
+	width: 160px;
+}
+.footer2{
+	color: rgba(255,255,255,0.5);
+	font-size: 15px;
+	padding: 102px 0;
+	background-color: #111860;
+	width: 1268px;
+	padding-left: 80px;
+	display: flex;
+}
+.masihkiri{
+	max-width: 555px;
+	padding: 0 45px 0 20px;
+	color: rgba(255,255,255,0.5);
+	font-size: 15px;
+}
+.masihkiri h4, .masihkanan h4{
+	color: #FFF;
+	font-size: 14px;
+	margin: 0 0 18px;
+	padding: 0 0 42px;
+}
+.masihkiri p, .masihkanan p{
+	margin: 0 0 30px;
+	line-height: 2;
+}
+.masihkiri .social a{color: #FFF;}
+.masihkiri .social a i {
+	font-size: 36px;
+	padding-right: 20px;
+}
+.masihkanan{
+	max-width: 555px;
+	padding: 0 20px 0 45px;
+	color: rgba(255,255,255,0.5);
+	font-size: 15px;
+}
+.email input{
+	background-color: rgba(0,0,0,0.25);
+	border: none;
+	padding: 12px 200px 12px 12px;
+	margin: 0 0 18px;
+	color: #FFF;
+}
+.email button{
+	background-color: #000;
+	color: #FFF;
+	border: none;
+	margin: 0 0 12px;
+	padding: 12px 20px;
+	margin-left: -5px;
+}
+.masihkanan .copi{margin-top: 39px;}
+.masihkanan .copi a{
+	text-decoration: none;
+	color: #FFF;
+}
